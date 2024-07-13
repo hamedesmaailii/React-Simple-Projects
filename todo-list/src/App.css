@@ -36,7 +36,7 @@ input[type="text"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 350px;
+    width: 380px;
     margin: 10px 0;
 
     .left-section {
