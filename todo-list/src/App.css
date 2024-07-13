@@ -42,6 +42,7 @@ input[type="text"] {
     .left-section {
         display: flex;
         align-items: center;
+        font-size: 0.875rem;
 
         input {
             margin-right: 10px;
