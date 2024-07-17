@@ -1,6 +1,6 @@
 import React from 'react';
 
-function photoItem({photo}) {
+function PhotoItem({photo}) {
     return (
         <div className="photo-item">
             <img src={photo.urls.small} alt={photo.alt_description}/>
@@ -9,4 +9,4 @@ function photoItem({photo}) {
     );
 }
 
-export default photoItem;
+export default PhotoItem;
