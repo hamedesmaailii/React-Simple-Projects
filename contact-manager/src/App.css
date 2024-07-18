@@ -1,38 +1,75 @@
+/*.App {*/
+/*    max-width: 600px;*/
+/*    margin: 0 auto;*/
+/*    padding: 20px;*/
+/*    text-align: center;*/
+/*    font-family: Arial, sans-serif;*/
+/*}*/
+
+/*.contact-form input {*/
+/*    margin: 10px;*/
+/*    padding: 8px;*/
+/*    font-size: 16px;*/
+/*}*/
+
+/*.contact-form button {*/
+/*    padding: 10px 15px;*/
+/*    font-size: 16px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.contact-list {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.contact-item {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding: 10px;*/
+/*    border-bottom: 1px solid #ddd;*/
+/*}*/
+
+/*.contact-item button {*/
+/*    padding: 5px 10px;*/
+/*    margin-left: 5px;*/
+/*    cursor: pointer;*/
+/*}*/
+
 .App {
-  text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-form input {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contact-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contact-list {
+    margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-item button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
 }
