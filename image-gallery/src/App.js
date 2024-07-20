@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import axios from 'axios';
 import './App.css';
-import ImageSearch from './components/ImageSerach';
 import ImageGallery from './components/ImageGallery';
+import ImageSearch from './components/ImageSearch';
 
 function App() {
-    const [image, setImage] = useState([]);
+    const [images, setImage] = useState([]);
 
-    const searchImage = async (query) => {
+    const searchImages = async (query) => {
         const response = await axios.get(`https://api.unsplash.com/search/photos`, {
             params: {query},
             headers: {
