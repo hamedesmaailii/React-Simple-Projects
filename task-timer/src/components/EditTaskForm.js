@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function editTaskForm({currentTask, onUpdate, onCancel}) {
+function EditTaskForm({currentTask, onUpdate, onCancel}) {
     const [text, setText] = useState(currentTask.text);
 
     const onSubmit = (e) => {
@@ -21,4 +21,4 @@ function editTaskForm({currentTask, onUpdate, onCancel}) {
     );
 }
 
-export default editTaskForm;
+export default EditTaskForm;
