@@ -1,0 +1,37 @@
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.contact-form input {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-list {
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-item button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}

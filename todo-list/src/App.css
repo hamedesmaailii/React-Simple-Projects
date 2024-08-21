@@ -1,0 +1,69 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    background: #282c34;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+input[type="text"] {
+    width: 70%;
+}
+
+.add-box {
+    border-radius: 18px;
+    padding: 20px 0;
+    margin: 20px auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);*/
+    overflow: hidden;
+}
+
+.todo-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+    margin: 10px 0;
+
+    .left-section {
+        display: flex;
+        align-items: center;
+        font-size: 0.875rem;
+
+        input {
+            margin-right: 10px;
+        }
+    }
+
+    .buttons {
+        button:first-child {
+            margin-right: 10px;
+        }
+    }
+}
+
+.add-todos {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+
+    input {
+        width: 60%;
+    }
+}

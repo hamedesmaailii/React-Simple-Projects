@@ -1,0 +1,31 @@
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+.song-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.song {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.song:hover {
+    background-color: #f0f0f0;
+}
+
+.player {
+    margin-top: 20px;
+}
+
+.player button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
