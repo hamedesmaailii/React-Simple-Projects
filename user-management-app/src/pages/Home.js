@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 import UserList from '../components/UserList';
 const Home = () => {
-    const [user, setUser] = useState([]);
+    const [users, setUser] = useState([]);
 
     useEffect(() => {
         axios.get('https://jsonplaceholder.typicode.com/users')
