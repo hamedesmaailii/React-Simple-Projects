@@ -31,3 +31,13 @@ th, td {
 th {
   background-color: #f4f4f4;
 }
+
+td a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
