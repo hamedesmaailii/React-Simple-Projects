@@ -71,3 +71,7 @@ h3 {
 .inc-exp-container div {
   text-align: center;
 }
+
+canvas {
+  height: 150px !important;
+}
